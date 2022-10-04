@@ -1,6 +1,6 @@
 console.log("Hello!");
 
-/*1. */
+// 1.
 const pokemon = {
   name: "Pikachu",
   images: [
@@ -15,9 +15,9 @@ const pokemon = {
   ],
 };
 console.log(pokemon.images[0].alt);
-console.log(pokemon.images[1].url); /*This is a string data type*/
+console.log(pokemon.images[1].url); // This is a string data type
 
-/*2. */
+// 2.
 const message = {
   content: "Hello, world!",
   print: function () {
